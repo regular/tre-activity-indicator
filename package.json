@@ -1,0 +1,33 @@
+{
+  "name": "tre-activity-indicator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regular/tre-activity-indicator.git"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regular/tre-activity-indicator/issues"
+  },
+  "homepage": "https://github.com/regular/tre-activity-indicator#readme",
+  "dependencies": {
+    "mini-svg-data-uri": "^1.0.2",
+    "mutant": "^3.22.1"
+  },
+  "devDependencies": {
+    "brfs": "^2.0.1",
+    "budo": "^11.6.0"
+  }
+}
